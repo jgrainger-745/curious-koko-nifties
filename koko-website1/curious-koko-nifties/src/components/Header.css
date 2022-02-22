@@ -1,0 +1,9 @@
+.header {
+    color: orange;
+    height: 200px;
+    display: flex;
+}
+
+.kokoLogo {
+    width: 50px;
+}
