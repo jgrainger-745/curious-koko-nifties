@@ -2,8 +2,35 @@
     color: orange;
     height: 200px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > div {
+    margin: 10px;
 }
 
 .kokoLogo {
     width: 50px;
+}
+
+.searchContainer {
+    background-color: goldenrod;
+    height: 50px;
+    flex: 1;
+    display: flex;
+    border-radius: 60px;
+    align-items: center;
+}
+
+.iconContainer {
+    margin: 10px;
+}
+
+.searchInput {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+    color:black;
 }
